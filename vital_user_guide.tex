@@ -96,7 +96,7 @@ When choosing a password, please be sure to meet the minimum complexity requirem
 \section*{Course Registration}
 After you have created a Vital user account, you will need to supply a registration code in order to get access to your course-specific lab environment. This code will be provided to you by your instructor.
 
-Upon authenticating to Vital, you will be presented a page which contains links to your course lab environments. This list will appear empty if this is your first time registering for a course. You may add a course by clicking the `Add course' link and providing your course registration code.
+After authenticating to Vital, you will be presented a page which contains links to your course lab environments. This list will appear empty if this is your first time registering for a course. You may add a course by clicking the `Add course' link and providing your course registration code.
 
  
 {%
@@ -161,14 +161,14 @@ While working on labs there may be situations in which you may need to restore a
 }
 
 \subsection*{SFTP File Transfers}
-SSH File Transfer Protocol (SFTP) enables you to move files from one computer to another. You may need to do this for certain assignments. You must either be on the NYU network or connected to the NYU VPN to resolve the domain name of the SFTP server (sftp.engineering.nyu.edu / 128.238.77.36). If you are not presently on the NYU network, \MYhref{https://www.nyu.edu/life/information-technology/getting-started/network-and-connectivity/vpn.html}{click here} for information on how to setup a VPN connection to NYU.
+SSH File Transfer Protocol (SFTP) enables you to move files from one computer to another. You may need to do this for certain assignments. \textbf{Note that this service is only available to NYU students and faculty}. You must either be on the NYU network or connected to the NYU VPN to resolve the domain name of the SFTP server (sftp.engineering.nyu.edu). If you are not presently on the NYU network, \MYhref{https://www.nyu.edu/life/information-technology/getting-started/network-and-connectivity/vpn.html}{click here} for information on how to setup a VPN connection to NYU.
 
 Most operating systems come equipped with SFTP software which is accessible via the command line. You can authenticate to the SFTP server using your Vital username and password.
 
 For example:
 \begin{adjustwidth}{2.5em}{0pt}
 \texttt{
-> sftp <username>@128.238.77.36
+> sftp <username>@sftp.engineering.nyu.edu
 }
 
 \texttt{

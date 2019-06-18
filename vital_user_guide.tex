@@ -71,7 +71,7 @@ Vital is a private cloud platform that provides students with hands-on learning 
 This document serves as a general introductory guide for new Vital users. Contact information for issues and technical support is provided in the final section.
 
 
-You can find the Vital homepage at: \MYhref{https://vital.engineering.nyu.edu/vital/login/}{https://vital.engineering.nyu.edu/vital/login/}
+You can find the Vital homepage at: \MYhref{https://vital.engineering.nyu.edu}{https://vital.engineering.nyu.edu}
 
 \section*{Account Creation}
 First-time users are required to create a new account before they can access Vital. Click the `Signup for a new account’ link on the homepage.
@@ -96,7 +96,7 @@ When choosing a password, please be sure to meet the minimum complexity requirem
 \section*{Course Registration}
 After you have created a Vital user account, you will need to supply a registration code in order to get access to your course-specific lab environment. This code will be provided to you by your instructor.
 
-After authenticating to Vital, you will be presented a page which contains links to your course lab environments. This list will appear empty if this is your first time registering for a course. You may add a course by clicking the `Add course' link and providing your course registration code.
+You will be presented a page which contains links to your course lab environments. This list will appear empty if this is your first time registering for a course. You may add a course by clicking the `Add course' link and providing your course registration code which will be provided by your instructor.
 
  
 {%
@@ -108,7 +108,7 @@ After authenticating to Vital, you will be presented a page which contains links
 \section*{Vital Features}
 Now we are ready to get hands-on with some of the infrastructure provided by Vital. In this section, we will examine the features of the platform and offer best practices. 
 
-Vital infrastructure uses the same default login for each course environment:
+Vital infrastructure uses the same default login for VM.
 \begin{adjustwidth}{2.5em}{0pt}
 \textbf{username:} student\\
 \textbf{password:} student
@@ -151,7 +151,7 @@ After clicking ‘View console’ and logging in using the default username and 
 
 
 \subsection*{Reimaging Virtual Machines}
-While working on labs there may be situations in which you may need to restore a machine to its initial state. To accomplish this Vital gives students the option to reimage a virtual machine. \textbf{Please be aware that this process will completely erase all user-specific data on the machine and restore it to its initial default settings}. Data deleted in this way \textbf{cannot be recovered}. Make sure you have saved your work elsewhere before initiating this process.  You can reimage a machine by selecting the blue arrow mouseover option.
+While working on labs there may be situations in which you may need to restore a machine to its initial state. To accomplish this, Vital gives students the option to reimage a virtual machine. \textbf{Please be aware that this process will completely erase all user-specific data on the machine and restore it to its initial default settings}. Data deleted in this way \textbf{cannot be recovered}. Make sure you have saved your work elsewhere before initiating this process.  You can reimage a machine by selecting the blue arrow mouseover option.
 
 
 {%
@@ -197,7 +197,7 @@ sftp> exit
 Once you have uploaded your files to the SFTP server, you can retrieve them from within the lab environment by executing the following commands:
 \begin{adjustwidth}{2.5em}{0pt}
 \texttt{
-> sftp <username>@128.238.77.36
+> sftp <username>@sftp.engineering.nyu.edu
 }
 
 \texttt{
